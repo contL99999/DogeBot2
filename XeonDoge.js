@@ -1,6 +1,6 @@
 //-----(Doge Bot by Xeon Bot Inc.)-----\\
 //-----(Youtube Channel: Xeon)-----\\
-//-----(Whatsapp number: +916909137213)-----\\
+//-----(Whatsapp number: +201032199513)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -42,7 +42,7 @@ const figlet = require('figlet')
 const ytsd = require('ytsr')
 const brainly = require('brainly-scraper')
 const ig = require('insta-fetcher')
-const cheerio = reprefiquire('cheerio')
+const cheerio = require('cheerio')
 const fromData = require('form-data')
 const os = require('os')
 const translate = require('@vitalets/google-translate-api')
@@ -297,11 +297,11 @@ try {
                 api: 'Error'
 			},
 			only: {
-				group: '*بااااكا هذا الامر للجروبات فقط*',
-				ownerG: '*هل انت كي ؟*',
-				ownerB: 'الامر غير صالح لك 🙂',
-				admin: 'يا ابني هو انت ادمن 🤦',
-				Badmin: 'بوت مش ادمن يسطا 🙂'
+				group: 'Only for within the group!',
+				ownerG: 'Only for group owners!',
+				ownerB: 'Only for bot owners!',
+				admin: 'Only for group admins!',
+				Badmin: 'Make the bot a group admin!'
 			}
 		}
 		const botNumber = alpha.user.jid
@@ -495,7 +495,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "@g.us" } : {}) 
+	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -528,7 +528,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "201032199513-1613049930@g.us",
+      "remoteJid": "6289643739077-1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -553,7 +553,7 @@ const fgi = {
 	 key: { 
          fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "201032199513-1613049930@g.us" } : {}) 
+	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -571,11 +571,11 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "201032199513-1613049930@g.us" } : {}) 
+	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `*${botName} by  ki Inc.*`,
+                 "text": `*${botName} by Xeon Bot Inc.*`,
                  "title": `_${botName}_`,
                  'jpegThumbnail': gambarrr
                         }
@@ -586,7 +586,7 @@ const fvoc = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "201032199513-1613049930@g.us" } : {}) 
+	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {
@@ -793,7 +793,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Doge Bot`,body:"HORNY = BONK",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/916909137213`}}})
+			alpha.sendMessage(from, teks, text, { thumbnail: ofrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Doge Bot`,body:"HORNY = BONK",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/201032199513`}}})
 		}
 		const simir = (teks) => {
 			alpha.sendMessage(from, teks, text, { quoted:ftex })
@@ -1119,10 +1119,10 @@ if (budy.startsWith('bot')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Doge Bot*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('https://github.com/DGXeon')
+reply('wa.me/201032199513')
 }
 if(isButton == 'ytm'){
-reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
+reply('Hi')
 }
 
    const sotoy = [
@@ -1230,7 +1230,7 @@ ${z}🐶 ${prefix}downloadmenu${z}
 ${z}🐶 ${prefix}funmenu${z}
 ${z}🐶 ${prefix}nsfwmenu${z}
 ${z}🐶 ${prefix}animemenu${z}
-    watch how you can install this bot in your whatsapp: https://youtu.be/zXvwqA8LvTw
+    how you can install this bot in your whatsapp:wa.me/201032199513
 ┗━━━━━━━━━━━━━━━━━`
 buttons = [
 {buttonId:`scbot`, buttonText: {displayText: 'BOT SCRIPT🔖'}, type: 1},
@@ -1307,7 +1307,7 @@ case 'stupid':
         break
         //funmenu by xeon
                         case 'uglycheck':
-					// source code by ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1315,7 +1315,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					alpha.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by  ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1324,7 +1324,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					break
                 case 'lesbicheck':
                 case 'lesbiancheck':
-					// source code by ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1332,7 +1332,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					alpha.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1340,7 +1340,7 @@ ganteng = body.slice(1)
 					alpha.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
@@ -1348,7 +1348,7 @@ cantik = body.slice(1)
 					alpha.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by ki ⛔
+					// source code by xeon⛔
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
@@ -1361,7 +1361,7 @@ watak = body.slice(1)
 					const koss = groupMembers
 					const akuu = jdii[Math.floor(Math.random() * jdii.length)]
 					const diaa = koss[Math.floor(Math.random() * koss.length)]
-					teks = `Ciee.. whats happening here @${akuu.jid.split('@')[0]} ♥️👀 Do you love me @${diaa.jid.split('@')[0]} `
+					teks = `Ciee.. whats happening here @${akuu.jid.split('@')[0]} ♥️👀 @${diaa.jid.split('@')[0]} `
 					jds.push(akuu.jid)
 					jds.push(diaa.jid)
 					mentions(teks, jds, true)
@@ -1517,8 +1517,8 @@ stamtus = `❏ 「 \`\`\`FUN MENU\`\`\` 」
 🐶 ${prefix}can [text]
 ────────────────────`
 buttons = [
-
-{buttonld:`owner`, buttonText: {displayText: 'BOT OWNER👤'}, type: 1}
+{buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT🔖'},type:1},
+{buttonId:`owner`, buttonText: {displayText: 'BOT OWNER👤'}, type: 1}
 ]
 const grup = {
     contentText: `${stamtus}`,
@@ -1567,7 +1567,7 @@ stamtus = `❏ 「 \`\`\`GROUP MENU\`\`\` 」
 🐶 ${prefix}tagsomeone [number]
 ────────────────────`
 buttons = [
-
+{buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
 {buttonId:`owner`, buttonText: {displayText: 'BOT OWNER'}, type: 1}
 ]
 const funyo = {
@@ -1601,7 +1601,7 @@ const verify = {
 }
 await alpha.sendMessage(from, verify, MessageType.buttonsMessage, {quoted: mek})
 		break
-		case 'help':
+		case 'Ki':
 case 'simplemenu':
 case 'listmenu':
   case 'command':
@@ -1684,12 +1684,12 @@ case 'nsfwmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}
-🐶 ${prefix}
-🐶 ${prefix}
-🐶 ${prefix}
-🐶 ${prefix}
-🐶 ${prefix}
+🐶 ${prefix}hentai
+🐶 ${prefix}blowjob
+🐶 ${prefix}awoo
+🐶 ${prefix}neko
+🐶 ${prefix}megumin2
+🐶 ${prefix}trapnime
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1708,7 +1708,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
 🐶 ${prefix}waifu
-🐶 ${prefix
+🐶 ${prefix}loli
 🐶 ${prefix}husbu
 🐶 ${prefix}milf
 🐶 ${prefix}cosplay
@@ -3208,13 +3208,7 @@ case 'sc':
 case 'script':
 case 'scbot':
 anu = `──────────────────
-NOTE : _DO NOT SELL BOT SCRIPT_
-──────────────────
-*👇SCRIPT GITHUB LINK👇*
-https://github.com/Ki_sama
-_BASE : Ki Bot Inc._
-_ORI SCRIPT : Doge Bot Version 2_
-_OWNER : ${NamaOwner}_
+NOTE : _بوت خاص_
 ⍟ ────────────────── ⍟`
 buttons = [
 {buttonId:`donate`, buttonText: {displayText: 'DONATE BOT OWNER'}, type: 1},
